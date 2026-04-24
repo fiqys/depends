@@ -25,7 +25,7 @@ echo "Cloning device tree repos..."
 
 git clone https://github.com/exynos1480/android_device_samsung_a55x device/samsung/a55x
 git clone https://github.com/exynos1480/android_device_samsung_a55x-common device/samsung/a55x-common
-git clone https://github.com/exynos1480/android_kernel_samsung_a55x -b lineage-23.0
+git clone https://github.com/exynos1480/android_kernel_samsung_a55x -b lineage-23.0 kernel/samsung/a55x
 
 git clone https://github.com/exynos1480/proprietary_vendor_samsung_a55x vendor/samsung/a55x
 git clone https://github.com/exynos1480/proprietary_vendor_samsung_a55x-common vendor/samsung/a55x-common
