@@ -17,6 +17,9 @@ git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_exyn
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_graphics hardware/samsung_slsi-linaro/graphics
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_interfaces hardware/samsung_slsi-linaro/interfaces
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_openmax hardware/samsung_slsi-linaro/openmax
+git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_config hardware/samsung_slsi-linaro/config
+git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_codec2 hardware/samsung_slsi-linaro/codec2
+git clone https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_sgpu hardware/samsung_slsi-linaro/sgpu
 
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal hardware/samsung_slsi/scsc_wifibt/wifi_hal
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
