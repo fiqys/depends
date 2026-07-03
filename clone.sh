@@ -70,18 +70,12 @@ echo "Cloning device tree repos..."
 clone_if_missing https://github.com/exynos1480/android_device_samsung_a55x \
     device/samsung/a55x
 
-clone_if_missing https://github.com/exynos1480/android_device_samsung_a55x-common \
-    device/samsung/a55x-common
-
 clone_if_missing https://github.com/exynos1480/android_kernel_samsung_a55x \
     kernel/samsung/a55x \
     lineage-23.2
 
 clone_if_missing https://github.com/exynos1480/proprietary_vendor_samsung_a55x \
     vendor/samsung/a55x
-
-clone_if_missing https://github.com/exynos1480/proprietary_vendor_samsung_a55x-common \
-    vendor/samsung/a55x-common
 
 clone_if_missing https://github.com/exynos1480/android_device_samsung_slsi_sepolicy \
     device/samsung_slsi/sepolicy
