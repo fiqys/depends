@@ -22,6 +22,8 @@ clone_if_missing() {
 
 echo "Cloning hardware repos..."
 
+rm -rf hardware/samsung
+
 clone_if_missing https://github.com/LineageOS/android_hardware_samsung \
     hardware/samsung
 
