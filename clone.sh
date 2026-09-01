@@ -32,6 +32,9 @@ fi
 clone_if_missing https://github.com/LineageOS/android_hardware_samsung_slsi_libbt \
     hardware/samsung_slsi/libbt
 
+clone_if_missing https://github.com/LineageOS/android_hardware_samsung_slsi_nfc \
+    hardware/samsung_slsi/nfc
+
 clone_if_missing https://github.com/LineageOS/android_hardware_samsung_slsi-linaro_config \
     hardware/samsung_slsi-linaro/config
 
