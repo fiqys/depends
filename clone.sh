@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 clone_if_missing() {
     local repo="$1"
