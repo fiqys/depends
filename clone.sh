@@ -74,7 +74,7 @@ clone_if_missing https://github.com/exynos1480/android_kernel_samsung_a55x \
 clone_if_missing https://github.com/exynos1480/proprietary_vendor_samsung_a55x \
     vendor/samsung/a55x
 
-clone_if_missing https://github.com/exynos1480/android_device_samsung_slsi_sepolicy \
+clone_if_missing https://github.com/LineageOS/android_device_samsung_slsi_sepolicy \
     device/samsung_slsi/sepolicy
 
 echo ""
