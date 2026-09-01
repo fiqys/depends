@@ -4,21 +4,17 @@ set -e
 clone_if_missing() {
     local repo="$1"
     local dest="$2"
-    local branch="$3"
+    local branch="${3:-lineage-24.0}"
 
     if [ -d "$dest/.git" ]; then
         echo "✓ $dest already exists, skipping."
     else
-        echo "→ Cloning $repo into $dest"
+        echo "→ Cloning $repo into $dest (branch: $branch)"
         mkdir -p "$(dirname "$dest")"
-
-        if [ -n "$branch" ]; then
-            git clone -b "$branch" "$repo" "$dest"
-        else
-            git clone "$repo" "$dest"
-        fi
+        git clone -b "$branch" "$repo" "$dest"
     fi
 }
+
 
 echo "Cloning hardware repos..."
 
