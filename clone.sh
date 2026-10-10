@@ -69,7 +69,7 @@ clone_if_missing https://github.com/fiqys/android_device_samsung_a55x \
     device/samsung/a55x \
     lineage-23.2
 
-clone_if_missing https://github.com/exynos1480/android_kernel_samsung_a55x \
+clone_if_missing https://github.com/fiqys/android_kernel_samsung_a55x \
     kernel/samsung/a55x \
     lineage-23.2
 
